@@ -48,7 +48,7 @@ All data sources were accessed on **October 1, 2024**.
 
 
 
-## 2. Structural Similarity Analysis for a-NEOs ([2.Molecular_similarity.py](https://github.com/Eamon-Yang/Neonicotinoids/blob/main/2.Molecular_similarity.py))
+### 2. Structural Similarity Analysis for a-NEOs ([2.Molecular_similarity.py](https://github.com/Eamon-Yang/Neonicotinoids/blob/main/2.Molecular_similarity.py))
 
 Potential structural analogues of neonicotinoids (**a-NEOs**) were identified through structural similarity analysis followed by manual screening and structural verification.
 
