@@ -48,7 +48,7 @@ All data sources were accessed on **October 1, 2024**.
 
 
 
-## 2. Structural Similarity Screening for a-NEOs
+## 2. Structural Similarity Analysis for a-NEOs
 
 Potential structural analogues of neonicotinoids (**a-NEOs**) were identified through structural similarity analysis followed by manual screening and structural verification.
 
@@ -85,7 +85,7 @@ The analysis was performed in **Python** using the **RDKit** cheminformatics too
 
 Invalid or empty SMILES entries were excluded from the similarity calculation.
 
-**Code:** Please see the accompanying Python script for the complete structural similarity analysis.
+**Code:** Please see the accompanying Python script Molecular_similarity.py.
 
 
 
