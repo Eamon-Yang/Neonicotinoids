@@ -14,12 +14,37 @@ This repository provides a rational workflow for the identification and prioriti
 
 ## Overview
 
-### 1. **Suspect screening database of p-NEOs, t-NEOs and a-NEOs** ([1. Suspect screening database.xlsx](https://github.com/Eamon-Yang/Neonicotinoids/blob/main/1.Suspect_screening_database.xlsx))
-This database consists of **92,955** registered or pre-registered substances from:
-- Suspect screening database of p-NEOs, t-NEOs, and a-NEOs was compiled from industrial chemical inventories, including the Toxic Substances Control Act (TSCA) of the United States, the Domestic Substances List (DSL) of Canada, the European Union’s REACH (Regulation for Registration, Evaluation, Authorisation, and Restriction of Chemicals), and the Inventory of Existing Chemical Substances in China (IECSC). Additional data sources included the US EPA CompTox Chemicals Dashboard (CompTox Chemicals Dashboard (epa.gov)), EPA’s ToxCast chemical library (ToxCast (epa.gov)), and the NORMAN Suspect List Exchange (NORMAN Suspect List Exchange (norman-network.com)), which serves as a centralized database for accessing substance lists for suspect screening and prioritization. Further details on the database can be found at (https://github.com/HIAS-RCEES-FuLab/Neonicotinoids). To improve the detection of p-NEOs, t-NEOs, and a-NEOs in environmental samples, the suspect database was further expanded and refined using the following steps: (1) a comprehensive literature search on Web of Science (Document Search - All Databases (webofscience.com)) by using multiple search criteria “neonicotinoid insecticides or neonicotinoids” and “water or sediment or soil or air or pesticide or insecticide”; (2) an online PubChem (PubChem (nih.gov)) database search utilizing NEO structural fragments such as 2-chloro-5-methylpyridine and 2-chloro-5-methylthiazole; and (3) predictions of TPs using BioTransformer3.0 (BioTransformer 3.0), the Chemical Transformation Simulator1.3.2.2 (CTS | Q.E.D. | US EPA), and the Pathway Prediction System, enviPath (enviPath). All data were accessed on October 01, 2024.
-A total of 1349 suspect compounds were compiled.
-Please see the separate Excel file.
+### 1. **Suspect screening database** ([1. Suspect screening database.xlsx](https://github.com/Eamon-Yang/Neonicotinoids/blob/main/1.Suspect_screening_database.xlsx))
 
+The suspect screening database contains **1,349 compounds**, including parent neonicotinoids (**p-NEOs**), transformation products (**t-NEOs**), and structural analogues (**a-NEOs**).
+
+The database was compiled and expanded using the following sources and approaches:
+
+- **Industrial chemical inventories**
+  - U.S. Toxic Substances Control Act (**TSCA**) Inventory
+  - Canadian Domestic Substances List (**DSL**)
+  - European Union **REACH** database
+  - Inventory of Existing Chemical Substances in China (**IECSC**)
+
+- **Chemical databases and suspect lists**
+  - U.S. EPA **CompTox Chemicals Dashboard**
+  - U.S. EPA **ToxCast** chemical library
+  - **NORMAN Suspect List Exchange**
+
+- **Literature-based screening**
+  - Web of Science searches using combinations of *"neonicotinoid insecticides"* or *"neonicotinoids"* with environmental and pesticide-related terms.
+
+- **Structure-based screening**
+  - PubChem searches using characteristic NEO structural fragments, including **2-chloro-5-methylpyridine** and **2-chloro-5-methylthiazole**.
+
+- **Transformation product prediction**
+  - **BioTransformer 3.0**
+  - **Chemical Transformation Simulator (CTS) v1.3.2.2**
+  - **enviPath**
+
+All data sources were accessed on **October 1, 2024**.
+
+**Database:** Please see the separate Excel file for the complete list of **1,349 suspect compounds**.
 
 ### 2. **t-NEOs and a-NEOs Extraction** ([2_Extract_OPCs.py](https://github.com/WestonSu/Organophosphorus/blob/main/2_Extract_OPCs.py))
 The `2_Extract_OPCs.py` script extracts OPCs by:
