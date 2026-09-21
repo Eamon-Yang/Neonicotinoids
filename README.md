@@ -1,5 +1,4 @@
 # Systemic underestimation of aquatic neonicotinoid-associated ecological risks
-<p align="left">
 
 ![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)
 ![RDKit](https://img.shields.io/badge/RDKit-Cheminformatics-00A6D6)
