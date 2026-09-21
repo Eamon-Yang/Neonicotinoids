@@ -173,10 +173,17 @@ The simulation was implemented in Python using observed risk increment factors d
 - `2_Extract_NEO-related compounds.py`: Script to extract OPCs and generate an MS-ready suspect list.
 - `5_Tanimoto similarity.py`: Python script for calculating structural similarity between chemicals.
 
-### Python Packages:
+### Requirements
+
+The scripts were implemented in Python and require the following packages:
+
+- `Python`
+- `NumPy`
 - `pandas`
-- `numpy`
-- `scikit-learn`
+- `SciPy`
+- `Matplotlib`
+- `RDKit`
+
 
 ## Citations 
 We ask users to directly cite the following paper:
