@@ -122,7 +122,7 @@ Invalid or empty SMILES entries were excluded prior to substructure matching.
 
 
 
-## Monte Carlo Simulation of Global NEO Risk Increments ([4.Monte_Carlo_simulation.py](https://github.com/Eamon-Yang/Neonicotinoids/blob/main/2.Molecular_similarity.py))
+### Monte Carlo Simulation of Global NEO Risk Increments ([4.Monte_Carlo_simulation.py](https://github.com/Eamon-Yang/Neonicotinoids/blob/main/2.Molecular_similarity.py))
 
 Monte Carlo simulation was used to estimate the potential increase in global ecological risks associated with transformation products (**t-NEOs**) and structural analogues (**a-NEOs**) relative to their corresponding parent neonicotinoids (**p-NEOs**).
 
@@ -157,9 +157,8 @@ The simulation was implemented in Python using observed risk increment factors d
 - **Simulation interval**
   - Risk increment ratios are summarized using the median and **95% simulation interval**, defined by the **2.5th and 97.5th percentiles** of the simulated ratio distribution.
 
-### Input
-
-The simulation requires two tab-delimited input files.
+- **Input**
+- The simulation requires two tab-delimited input files.
 
 #### `RQ_Global.txt`
 
@@ -171,9 +170,8 @@ The file also contains geographic information such as `Continent` for descriptiv
 
 Observed risk increment factors derived from measured transformation products and structural analogues.
 
-### Output
-
-The script generates statistical summaries and cumulative probability plots.
+- **Output**
+- The script generates statistical summaries and cumulative probability plots.
 
 **Code:** Please see the accompanying Python script `Monte_Carlo_simulation`.
 
