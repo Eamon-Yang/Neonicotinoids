@@ -155,11 +155,11 @@ The simulation was implemented in Python using observed risk increment factors d
 - **Input**
   - The simulation requires two tab-delimited input files.
 
-- **#### `RQ_Global.txt`**
+- **`RQ_Global.txt`**
   - Global parent-NEO risk quotients compiled from the literature-based global dataset.
   - The file also contains geographic information such as `Continent` for descriptive summaries.
 
-- **#### `Magnification.txt`**
+- **`Magnification.txt`**
   - Observed risk increment factors derived from measured transformation products and structural analogues.
 
 - **Output**
