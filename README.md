@@ -14,7 +14,7 @@ This repository provides a rational workflow for the identification and prioriti
 
 ## Overview
 
-### 1. **Suspect screening database of p-NEOs, t-NEOs and a-NEOs** ([1. Suspect screening database.xlsx](https://github.com/WestonSu/Organophosphorus/blob/main/1_Industrial_chemicals.csv))
+### 1. **Suspect screening database of p-NEOs, t-NEOs and a-NEOs** ([1. Suspect screening database.xlsx](https://github.com/Eamon-Yang/Neonicotinoids/blob/main/1. Suspect screening database.xlsx))
 This database consists of **92,955** registered or pre-registered substances from:
 - The Inventory of Existing Chemical Substances in China (IECSC)
 - The Toxic Substances Control Act Inventory (TSCA) of the United States
