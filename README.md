@@ -14,8 +14,10 @@ This repository provides a rational workflow for the identification and prioriti
 
 ## Overview
 ### 1. **Suspect screening database** ([1. Suspect screening database.xlsx](https://github.com/Eamon-Yang/Neonicotinoids/blob/main/1.Suspect_screening_database.xlsx))
+
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![RDKit](https://img.shields.io/badge/RDKit-Cheminformatics-00A6D6)
+
 The suspect screening database contains **1,349 compounds**, including parent neonicotinoids (**p-NEOs**), transformation products (**t-NEOs**), and structural analogues (**a-NEOs**).
 The database was compiled and expanded using the following sources and approaches:
 - **Industrial chemical inventories**
@@ -129,7 +131,7 @@ The simulation was implemented in Python using observed risk increment factors d
 
 
 ## Repository Contents
-- `1_Industrial_chemicals.csv`: The combined industrial chemical database.
+- `1. Suspect screening database.xlsx`: The combined industrial chemical database.
 - `2.Molecular_similarity.py`: Calculates molecular similarity between a reference NEO and compounds in an existing chemical database using Morgan fingerprints and the Tanimoto coefficient.
 - `Substructure_extraction.py`: Screens existing chemical databases for compounds containing predefined NEO-related structural patterns using RDKit substructure matching.
 - `4.Monte_Carlo_simulation.py`: Performs Monte Carlo simulations to estimate global ecological risk increments associated with t-NEOs and a-NEOs, including p+t-NEO, p+a-NEO, and p+t+a-NEO risk scenarios.
