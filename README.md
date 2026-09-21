@@ -154,7 +154,7 @@ This project also builds on a number of other projects, algorithms and ideas. Pl
 
 If you use the data, code, or computational workflows provided in this repository, please cite:
 
-> Yang, Z. et al. **Systemic underestimation of aquatic neonicotinoid-associated ecological risks.** *xxxx xxxx* (202X). https://doi.org/xxxxx
+> Yang, Z. et al. **Systemic underestimation of aquatic neonicotinoid-associated ecological risks.** *xxx* **202x**, *xx* (xx), xxx–xxx. DOI: 
 
 > Rogers, D.; Hahn, M. **Extended-Connectivity Fingerprints.** *J. Chem. Inf. Model.* **2010**, *50* (5), 742–754. DOI: [10.1021/ci100050t](https://doi.org/10.1021/ci100050t)
 
