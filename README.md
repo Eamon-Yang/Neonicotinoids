@@ -161,3 +161,5 @@ If you use the data, code, or computational workflows provided in this repositor
 > Bajusz, D.; Rácz, A.; Héberger, K. **Why Is Tanimoto Index an Appropriate Choice for Fingerprint-Based Similarity Calculations?** *J. Cheminform.* **2015**, *7*, 20. DOI: [10.1186/s13321-015-0069-3](https://doi.org/10.1186/s13321-015-0069-3)
 
 > Su, W. et al. **Identification and Prioritization of Emerging Organophosphorus Compounds Beyond Organophosphate Esters in Chinese Estuarine Waters. Environ. Sci. Technol.** *Environ. Sci. Technol.* (2026). https://doi.org/10.1021/acs.est.4c09869
+
+> Li, P. et al. **Occurrence and Temporal Trends of Benzotriazole UV Stabilizers in Mollusks (2010–2018) from the Chinese Bohai Sea Revealed by Target, Suspect, and Nontarget Screening Analysis.** *Environ. Sci. Technol.* **2022**, *56* (23), 16759–16767. DOI: [10.1021/acs.est.2c04143](https://doi.org/10.1021/acs.est.2c04143) 
