@@ -48,7 +48,7 @@ All data sources were accessed on **October 1, 2024**.
 
 
 
-### 2. Structural Similarity Analysis for a-NEOs ([2.Molecular_similarity.py](https://github.com/Eamon-Yang/Neonicotinoids/blob/main/2.Molecular_similarity.py))
+### 2. Structural Similarity Screening for a-NEOs ([2.Molecular_similarity.py](https://github.com/Eamon-Yang/Neonicotinoids/blob/main/2.Molecular_similarity.py))
 
 Potential structural analogues of neonicotinoids (**a-NEOs**) were identified through structural similarity analysis followed by manual screening and structural verification.
 
@@ -85,20 +85,34 @@ The analysis was performed in **Python** using the **RDKit** cheminformatics too
 
 Invalid or empty SMILES entries were excluded from the similarity calculation.
 
-**Code:** Please see the accompanying Python script Molecular_similarity.py.
+**Code:** Please see the accompanying Python script `Molecular_similarity.py`.
 
 
+### 3. Substructure-Based Screening of NEO-related compounds
 
+NEO-related compounds were systematically extracted from existing chemical databases through **substructure-based screening** using the **RDKit** cheminformatics toolkit in Python.
 
+The screening was based on a set of predefined structural patterns associated with NEO-related compounds.
 
+- **Structural patterns**
+  - Six predefined NEO-related structural patterns were encoded as SMILES and converted into RDKit molecular query objects.
 
-### 2. **t-NEOs and a-NEOs Extraction** ([2_Extract_OPCs.py](https://github.com/WestonSu/Organophosphorus/blob/main/2_Extract_OPCs.py))
-The `2_Extract_OPCs.py` script extracts OPCs by:
-- Filtering out compounds containing counterions (e.g., Na+/K+/Cl−/Br−) and metal/metalloid-containing compounds.
-- Standardizing the resulting list into an "MS-ready" format for HRMS analysis.
+- **Substructure matching**
+  - SMILES structures of compounds in the input database were parsed and validated using RDKit.
+  - Each valid molecular structure was screened against the predefined structural patterns using RDKit substructure matching (`HasSubstructMatch`).
+  - A compound was extracted if it contained at least one of the predefined structural patterns.
 
-### 5. **t-NEOs and a-NEOs similarity calculation** ([5_Tanimoto.py](https://github.com/WestonSu/Organophosphorus/blob/main/5_Tanimoto.py))
-This script calculates the structural similarity between compounds using the **Tanimoto coefficient**, which is commonly used in cheminformatics for molecular similarity assessments.
+- **Input**
+  - CAS Registry Number
+  - SMILES
+
+- **Output**
+  - CAS Registry Number
+  - SMILES
+
+Invalid or empty SMILES entries were excluded prior to substructure matching.
+
+**Code:** Please see the accompanying Python script `Substructure_extraction.py`.
 
 
 ## Repository Contents
