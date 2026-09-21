@@ -14,19 +14,19 @@ This repository provides a rational workflow for the identification and prioriti
 
 ## Overview
 
-### 1. **Suspect screening database of p-NEOs, t-NEOs and a-NEOs. ** ([1_Industrial_chemicals.csv](https://github.com/WestonSu/Organophosphorus/blob/main/1_Industrial_chemicals.csv))
+### 1. **Suspect screening database of p-NEOs, t-NEOs and a-NEOs** ([1_Industrial_chemicals.csv](https://github.com/WestonSu/Organophosphorus/blob/main/1_Industrial_chemicals.csv))
 This database consists of **92,955** registered or pre-registered substances from:
 - The Inventory of Existing Chemical Substances in China (IECSC)
 - The Toxic Substances Control Act Inventory (TSCA) of the United States
 - The Domestic Substances List (DSL) of Canada
 - The Regulation for Registration, Evaluation, Authorisation, and Restriction of Chemicals (REACH) of the European Union
 
-### 2. **Structural analogues Extraction** ([2_Extract_OPCs.py](https://github.com/WestonSu/Organophosphorus/blob/main/2_Extract_OPCs.py))
+### 2. **t-NEOs and a-NEOs Extraction** ([2_Extract_OPCs.py](https://github.com/WestonSu/Organophosphorus/blob/main/2_Extract_OPCs.py))
 The `2_Extract_OPCs.py` script extracts OPCs by:
 - Filtering out compounds containing counterions (e.g., Na+/K+/Cl−/Br−) and metal/metalloid-containing compounds.
 - Standardizing the resulting list into an "MS-ready" format for HRMS analysis.
 
-### 5. **Structural analogues calculation** ([5_Tanimoto.py](https://github.com/WestonSu/Organophosphorus/blob/main/5_Tanimoto.py))
+### 5. **t-NEOs and a-NEOs similarity calculation** ([5_Tanimoto.py](https://github.com/WestonSu/Organophosphorus/blob/main/5_Tanimoto.py))
 This script calculates the structural similarity between compounds using the **Tanimoto coefficient**, which is commonly used in cheminformatics for molecular similarity assessments.
 
 
