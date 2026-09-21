@@ -16,6 +16,7 @@ This repository provides a rational workflow for the identification and prioriti
 
 ### 1. **Suspect screening database** ([1. Suspect screening database.xlsx](https://github.com/Eamon-Yang/Neonicotinoids/blob/main/1.Suspect_screening_database.xlsx))
 
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![RDKit](https://img.shields.io/badge/RDKit-Cheminformatics-00A6D6)
 
 The suspect screening database contains **1,349 compounds**, including parent neonicotinoids (**p-NEOs**), transformation products (**t-NEOs**), and structural analogues (**a-NEOs**).
