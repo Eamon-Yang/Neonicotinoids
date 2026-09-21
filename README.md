@@ -117,7 +117,7 @@ Invalid or empty SMILES entries were excluded prior to substructure matching.
 
 **Code:** Please see the accompanying Python script `Substructure_extraction.py`.
 
-### 4. Monte Carlo Simulation of Global NEO Risk Increments ([4.Monte_Carlo_simulation.py](https://github.com/Eamon-Yang/Neonicotinoids/blob/main/2.Molecular_similarity.py))
+### 4. Monte Carlo Simulation of Global NEO Risk Increments ([4.Monte_Carlo_simulation.py](https://github.com/Eamon-Yang/Neonicotinoids/blob/main/4.Monte_Carlo_simulation.py))
 
 Monte Carlo simulation was used to estimate the potential increase in global ecological risks associated with transformation products (**t-NEOs**) and structural analogues (**a-NEOs**) relative to their corresponding parent neonicotinoids (**p-NEOs**).
 
