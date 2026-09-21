@@ -122,7 +122,7 @@ The simulation was implemented in Python using observed risk increment factors d
 **Code:** Please see the accompanying Python script `Monte_Carlo_simulation`.
 
 
-## Repository Contents
+### Repository Contents
 - `1. Suspect screening database.xlsx`: The combined industrial chemical database.
 - `2.Molecular_similarity.py`: Calculates molecular similarity between a reference NEO and compounds in an existing chemical database using Morgan fingerprints and the Tanimoto coefficient.
 - `3.Substructure_extraction.py`: Screens existing chemical databases for compounds containing predefined NEO-related structural patterns using RDKit substructure matching.
@@ -139,7 +139,7 @@ The scripts were implemented in Python and require the following packages:
 - `RDKit`
 
 
-## Citations 
+### Citations 
 We ask users to directly cite the following paper:
 
 This project also builds on a number of other projects, algorithms and ideas. Please consider citing the following full list of papers when relevant: 
