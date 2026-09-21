@@ -88,7 +88,7 @@ Invalid or empty SMILES entries were excluded from the similarity calculation.
 **Code:** Please see the accompanying Python script `Molecular_similarity.py`.
 
 
-### 3. Substructure-Based Screening of NEO-related compounds
+### 3. Substructure-Based Screening of NEO-related compounds ([3.Substructure_extraction.py](https://github.com/Eamon-Yang/Neonicotinoids/blob/main/3.Substructure_extraction.py))
 
 NEO-related compounds were systematically extracted from existing chemical databases through **substructure-based screening** using the **RDKit** cheminformatics toolkit in Python.
 
