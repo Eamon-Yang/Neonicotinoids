@@ -8,8 +8,6 @@
 
 This repository provides a rational workflow for the identification and prioritization of pollutants in environmental samples by the combination of nontarget screening and MCDA prioritization approach.
 
----
-
 ## Overview
 ### 1. **Suspect screening database** ([1. Suspect screening database.xlsx](https://github.com/Eamon-Yang/Neonicotinoids/blob/main/1.Suspect_screening_database.xlsx))
 The suspect screening database contains **1,349 compounds**, including parent neonicotinoids (**p-NEOs**), transformation products (**t-NEOs**), and structural analogues (**a-NEOs**).
