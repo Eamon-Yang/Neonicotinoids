@@ -46,6 +46,52 @@ All data sources were accessed on **October 1, 2024**.
 
 **Database:** Please see the separate Excel file for the complete list of **1,349 suspect compounds**.
 
+
+
+## 2. Structural Similarity Screening for a-NEOs
+
+Potential structural analogues of neonicotinoids (**a-NEOs**) were identified through structural similarity analysis followed by manual screening and structural verification.
+
+The analysis was performed in **Python** using the **RDKit** cheminformatics toolkit.
+
+- **Reference compound**
+  - A representative parent neonicotinoid (**p-NEO**) was used as the reference structure for similarity calculation.
+
+- **Molecular representation**
+  - Morgan fingerprints
+  - Radius = **2**
+  - Bit vector length = **2048**
+  - Pharmacophoric features enabled (`useFeatures=True`)
+
+- **Similarity calculation**
+  - Structural similarity between the reference p-NEO and each compound in the database was calculated using the **Tanimoto coefficient**.
+  - Similarity scores were calculated for all compounds with valid SMILES and exported for subsequent screening.
+
+- **Candidate selection**
+  - Compounds with a Tanimoto similarity ≥ **0.5** were manually selected as candidate structural analogues.
+
+- **Structural verification**
+  - Candidate compounds were further manually curated based on characteristic structural features of NEOs.
+  - Particular attention was given to the presence of the **2-chloro-5-methylpyridine moiety** (`ClC1=NC=C(C)C=C1`), a characteristic structural moiety occurring in many NEO-related compounds.
+
+- **Input**
+  - CAS Registry Number
+  - SMILES
+
+- **Output**
+  - CAS Registry Number
+  - SMILES
+  - Tanimoto similarity score
+
+Invalid or empty SMILES entries were excluded from the similarity calculation.
+
+**Code:** Please see the accompanying Python script for the complete structural similarity analysis.
+
+
+
+
+
+
 ### 2. **t-NEOs and a-NEOs Extraction** ([2_Extract_OPCs.py](https://github.com/WestonSu/Organophosphorus/blob/main/2_Extract_OPCs.py))
 The `2_Extract_OPCs.py` script extracts OPCs by:
 - Filtering out compounds containing counterions (e.g., Na+/K+/Cl−/Br−) and metal/metalloid-containing compounds.
