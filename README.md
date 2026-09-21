@@ -151,8 +151,13 @@ This project also builds on a number of other projects, algorithms and ideas. Pl
 5. Su, W. et al. Identification and Prioritization of Emerging Organophosphorus Compounds Beyond Organophosphate Esters in Chinese Estuarine Waters. Environ. Sci. Technol. 2025, 59, 8, 4080–4091. DOI: 10.1021/acs.est.4c09869
 
 ### References
+
 If you use the data, code, or computational workflows provided in this repository, please cite:
+
 > Yang, Z. et al. **Systemic underestimation of aquatic neonicotinoid-associated ecological risks.** *xxxx xxxx* (202X). https://doi.org/xxxxx
+
 > Rogers, D.; Hahn, M. **Extended-Connectivity Fingerprints.** *J. Chem. Inf. Model.* **2010**, *50* (5), 742–754. DOI: [10.1021/ci100050t](https://doi.org/10.1021/ci100050t)
+
 > Bajusz, D.; Rácz, A.; Héberger, K. **Why Is Tanimoto Index an Appropriate Choice for Fingerprint-Based Similarity Calculations?** *J. Cheminform.* **2015**, *7*, 20. DOI: [10.1186/s13321-015-0069-3](https://doi.org/10.1186/s13321-015-0069-3)
+
 > Su, W. et al. **Identification and Prioritization of Emerging Organophosphorus Compounds Beyond Organophosphate Esters in Chinese Estuarine Waters. Environ. Sci. Technol.** *Environ. Sci. Technol.* (2026). https://doi.org/10.1021/acs.est.4c09869
