@@ -118,6 +118,66 @@ Invalid or empty SMILES entries were excluded prior to substructure matching.
 **Code:** Please see the accompanying Python script `Substructure_extraction.py`.
 
 
+
+
+
+
+## Monte Carlo Simulation of Global NEO Risk Increments ([4.Monte_Carlo_simulation.py](https://github.com/Eamon-Yang/Neonicotinoids/blob/main/2.Molecular_similarity.py))
+
+Monte Carlo simulation was used to estimate the potential increase in global ecological risks associated with transformation products (**t-NEOs**) and structural analogues (**a-NEOs**) relative to their corresponding parent neonicotinoids (**p-NEOs**).
+
+The simulation was implemented in Python using observed risk increment factors derived from measured p-NEOs, t-NEOs, and a-NEOs, together with global parent-NEO risk quotients (RQs).
+
+### Simulation Framework
+
+- **Risk increment factors**
+  - Observed risk increment factors greater than 1 (**M > 1**) were retained for distribution fitting.
+  - The retained increment factors were log-transformed and fitted to log-normal distributions.
+  - Distribution parameters were estimated separately for transformation products of individual p-NEOs and collectively for structural analogues.
+
+- **Monte Carlo simulation**
+  - Number of iterations: **10,000**
+  - Random seed: **42**
+  - Risk increment factors were randomly sampled from the fitted log-normal distributions.
+  - Simulated increment factors were constrained to values ≥ 1.
+  - Sampled factors were applied to parent-NEO RQs at global monitoring sites.
+
+- **Transformation products**
+  - Compound-specific simulations were conducted for parent NEOs
+
+- **Structural analogues**
+  - A collective analogue risk increment distribution was used to estimate the additional risk associated with a-NEOs relative to the summed RQs of p-NEOs.
+
+- **Combined risk scenarios**
+  - `p-NEOs`: parent NEOs only
+  - `p+t-NEOs`: parent NEOs adjusted for transformation-product risk increments
+  - `p+a-NEOs`: parent NEOs adjusted for structural-analogue risk increments
+  - `p+t+a-NEOs`: transformation-product-adjusted RQs further adjusted using the structural-analogue increment factor
+
+- **Simulation interval**
+  - Risk increment ratios are summarized using the median and **95% simulation interval**, defined by the **2.5th and 97.5th percentiles** of the simulated ratio distribution.
+
+### Input
+
+The simulation requires two tab-delimited input files.
+
+#### `RQ_Global.txt`
+
+Global parent-NEO risk quotients compiled from the literature-based global dataset.
+
+The file also contains geographic information such as `Continent` for descriptive summaries.
+
+#### `Magnification.txt`
+
+Observed risk increment factors derived from measured transformation products and structural analogues.
+
+### Output
+
+The script generates statistical summaries and cumulative probability plots.
+
+**Code:** Please see the accompanying Python script `Monte_Carlo_simulation`.
+
+
 ## Repository Contents
 - `1_Industrial_chemicals.csv`: The combined industrial chemical database.
 - `2_Extract_NEO-related compounds.py`: Script to extract OPCs and generate an MS-ready suspect list.
