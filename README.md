@@ -150,10 +150,11 @@ This project also builds on a number of other projects, algorithms and ideas. Pl
 4. Dührkop, K.; Fleischauer, M.; Ludwig, M.; Aksenov, A. A.; Melnik, A. V.; Meusel, M.; Dorrestein, P. C.; Rousu, J.; Böcker, S. SIRIUS 4: a rapid tool for turning tandem mass spectra into metabolite structure information. Nat. Methods 2019, 16 (4), 299−302. DOI: 10.1038/s41592-019-0344-8
 5. Su, W. et al. Identification and Prioritization of Emerging Organophosphorus Compounds Beyond Organophosphate Esters in Chinese Estuarine Waters. Environ. Sci. Technol. 2025, 59, 8, 4080–4091. DOI: 10.1021/acs.est.4c09869
 
-## 🔗 Citation
+### Citations
 
 If you use the data, code, or computational workflows provided in this repository, please cite:
 
-> Yang, E. et al. **Systemic underestimation of aquatic neonicotinoid-associated ecological risks.** *Nature Water* (202X). https://doi.org/xxxxx
+> Yang, Z. et al. **Systemic underestimation of aquatic neonicotinoid-associated ecological risks.** *Nature Water* (202X). https://doi.org/xxxxx
 
+> Su, W. et al. **Identification and Prioritization of Emerging Organophosphorus Compounds Beyond Organophosphate Esters in Chinese Estuarine Waters. Environ. Sci. Technol.** *Environ. Sci. Technol.* (2026). https://doi.org/10.1021/acs.est.4c09869
 
