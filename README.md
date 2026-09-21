@@ -6,13 +6,7 @@
 ![Suspect Screening](https://img.shields.io/badge/Suspect%20Screening-Neonicotinoids-2E8B57)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-</p>
 This repository provides a rational workflow for the identification and prioritization of pollutants in environmental samples by the combination of nontarget screening and MCDA prioritization approach.
-<br>
-<br>
-<p align="center">
-  <img src="Graphical_Abstract.png" alt="Graphical_Abstract" width="600"/>
-</p>
 
 ---
 
