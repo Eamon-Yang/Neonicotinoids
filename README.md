@@ -6,7 +6,7 @@
 ![Monte Carlo](https://img.shields.io/badge/Monte%20Carlo-Simulation-6C3483)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-This repository provides a rational workflow for the identification and prioritization of pollutants in environmental samples by the combination of nontarget screening and MCDA prioritization approach.
+This repository provides the data, code, and reproducible computational workflows supporting the suspect screening, structural characterization, and ecological risk assessment of parent neonicotinoids (p-NEOs), transformation products (t-NEOs), and structural analogues (a-NEOs).
 
 ## Overview
 ### 1. **Suspect screening database** ([1. Suspect screening database.xlsx](https://github.com/Eamon-Yang/Neonicotinoids/blob/main/1.Suspect_screening_database.xlsx))
