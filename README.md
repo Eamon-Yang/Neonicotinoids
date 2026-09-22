@@ -1,4 +1,4 @@
-# Systemic underestimation of aquatic neonicotinoid-associated ecological risks
+<img width="850" height="265" alt="Figure1_GitHub" src="https://github.com/user-attachments/assets/650798c5-fcd2-4b4c-8fde-793b69a49bc6" /># Systemic underestimation of aquatic neonicotinoid-associated ecological risks
 
 ![Suspect Screening](https://img.shields.io/badge/Suspect%20Screening-Neonicotinoids-2E8B57)
 ![Python](https://img.shields.io/badge/Python-3.14-3776AB?logo=python&logoColor=white)
@@ -8,7 +8,7 @@
 
 This repository provides the data, code, and reproducible computational workflows supporting the suspect screening, structural characterization, and ecological risk assessment of parent neonicotinoids (p-NEOs), transformation products (t-NEOs), and structural analogues (a-NEOs).
 
-<img width="850" height="265" alt="Figure1_GitHub" src="https://github.com/user-attachments/assets/841e096e-c297-4865-9d37-e7e15043c555" />
+<img width="850" height="265" alt="Figure1_GitHub" src="https://github.com/user-attachments/assets/9732266b-2428-4a29-95ec-fccd12a88e36" />
 
 ---
 
