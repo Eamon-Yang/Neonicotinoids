@@ -8,8 +8,7 @@
 
 This repository provides the data, code, and reproducible computational workflows supporting the suspect screening, structural characterization, and ecological risk assessment of parent neonicotinoids (p-NEOs), transformation products (t-NEOs), and structural analogues (a-NEOs).
 
-<img width="519" height="283" alt="Figure1_GitHub" src="https://github.com/user-attachments/assets/f689b95c-64ba-4947-8bc1-58f31324a847" />
-
+<img width="850" height="265" alt="Figure1_GitHub" src="https://github.com/user-attachments/assets/841e096e-c297-4865-9d37-e7e15043c555" />
 
 ---
 
