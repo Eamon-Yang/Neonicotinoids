@@ -8,6 +8,11 @@
 
 This repository provides the data, code, and reproducible computational workflows supporting the suspect screening, structural characterization, and ecological risk assessment of parent neonicotinoids (p-NEOs), transformation products (t-NEOs), and structural analogues (a-NEOs).
 
+<img width="519" height="283" alt="Figure1_GitHub" src="https://github.com/user-attachments/assets/f689b95c-64ba-4947-8bc1-58f31324a847" />
+
+
+---
+
 ## Overview
 ### 1. **Suspect screening database** ([1. Suspect screening database.xlsx](https://github.com/Eamon-Yang/Neonicotinoids/blob/main/1.Suspect_screening_database.xlsx))
 The suspect screening database contains **1,349 compounds**, including parent neonicotinoids (**p-NEOs**), transformation products (**t-NEOs**), and structural analogues (**a-NEOs**).
